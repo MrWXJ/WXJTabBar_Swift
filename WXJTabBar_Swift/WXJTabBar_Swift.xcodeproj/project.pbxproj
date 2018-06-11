@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		23921B5D20CE3F2F008E2195 /* WXJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23921B5C20CE3F2F008E2195 /* WXJNavigationController.swift */; };
 		23921B5F20CE480E008E2195 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23921B5E20CE480E008E2195 /* NextViewController.swift */; };
-		23921B6320CE5A61008E2195 /* WXJNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23921B6220CE5A61008E2195 /* WXJNetwork.swift */; };
 		23AE54AB20CE25520065CDB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AE54AA20CE25520065CDB4 /* AppDelegate.swift */; };
 		23AE54AD20CE25520065CDB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AE54AC20CE25520065CDB4 /* ViewController.swift */; };
 		23AE54B020CE25520065CDB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23AE54AE20CE25520065CDB4 /* Main.storyboard */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		23921B5C20CE3F2F008E2195 /* WXJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXJNavigationController.swift; sourceTree = "<group>"; };
 		23921B5E20CE480E008E2195 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
-		23921B6220CE5A61008E2195 /* WXJNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WXJNetwork.swift; sourceTree = "<group>"; };
 		23AE54A720CE25520065CDB4 /* WXJTabBar_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXJTabBar_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AE54AA20CE25520065CDB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23AE54AC20CE25520065CDB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				23921B5E20CE480E008E2195 /* NextViewController.swift */,
 				23AE54D820CE25940065CDB4 /* WXJTabBarController.swift */,
 				23921B5C20CE3F2F008E2195 /* WXJNavigationController.swift */,
-				23921B6220CE5A61008E2195 /* WXJNetwork.swift */,
 				23AE54AE20CE25520065CDB4 /* Main.storyboard */,
 				23AE54B120CE25520065CDB4 /* Assets.xcassets */,
 				23AE54B320CE25520065CDB4 /* LaunchScreen.storyboard */,
@@ -279,7 +276,6 @@
 				23AE54DB20CE2B2E0065CDB4 /* SecondViewController.swift in Sources */,
 				23AE54AD20CE25520065CDB4 /* ViewController.swift in Sources */,
 				23AE54AB20CE25520065CDB4 /* AppDelegate.swift in Sources */,
-				23921B6320CE5A61008E2195 /* WXJNetwork.swift in Sources */,
 				23AE54D920CE25940065CDB4 /* WXJTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "MrWXJ.WXJTabBar-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "MrWXJ.WXJTabBar-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

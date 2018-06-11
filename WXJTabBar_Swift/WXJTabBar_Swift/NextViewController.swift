@@ -16,13 +16,7 @@ class NextViewController: UIViewController {
         // Do any additional setup after loading the view.
 
         self.view.backgroundColor = UIColor.red
-        
-        let net = WXJNetwork()
 
-        net.initWXJNetwork(method: WXJHTTPMethod.methodOfPost, url: "http://www.24hmart.cn:8081/comm/noticeAppIndex", parameter: "depId=8510305&page=1&pageSize=10", cookieBool: false);
-        net.a2ClickCallBack = {(par:String) in
-            print(par)
-        };
         
     }
 
