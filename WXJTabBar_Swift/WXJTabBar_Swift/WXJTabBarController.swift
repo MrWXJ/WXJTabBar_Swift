@@ -49,7 +49,7 @@ class WXJTabBarController: UITabBarController {
         let seletedDic = NSMutableDictionary()
         seletedDic.setValue(UIColor.green, forKey: NSAttributedStringKey.foregroundColor.rawValue)
         childController.tabBarItem.setTitleTextAttributes((seletedDic as! [NSAttributedStringKey : Any]), for: UIControlState.selected)
-        
+        //对导航栏做了相应的修改
         let navigationC = WXJNavigationController(rootViewController: childController)
         navigationC.navigationBar.isTranslucent = false
         navigationC.navigationBar.barTintColor = UIColor.white
